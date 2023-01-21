@@ -8,7 +8,7 @@ function myFunction() {
     
   
   } else if (letter === "Searcher") {
-    text = "Well done! Now for your reward:";
+    text = "Well done! Now for your reward:     ";
     
     } else if (letter === "Nothing") {
     text = "Clever, but wrong.";
