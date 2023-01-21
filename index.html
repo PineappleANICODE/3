@@ -1,0 +1,43 @@
+<html>
+<body>
+
+<p>What's your name?<p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+
+<link rel="icon" href="https://tse1.explicit.bing.net/th?id=OIP.WBNZ4DEUXwEmin-66Mvx-QHaFj&pid=Api">
+
+
+
+
+function myFunction() {
+  var letter = document.getElementById("myInput").value;
+  var text;
+
+  
+  if (letter === "searcher") {
+    text = "Well done! Now for your reward:";
+    
+  
+  } else if (letter === "Searcher") {
+    text = "Well done! Now for your reward:";
+    
+    } else if (letter === "Nothing") {
+    text = "Clever, but wrong.";
+    
+  
+  } else {
+    text = "NO! HAVE YOU LEARNED NOTHING?";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
