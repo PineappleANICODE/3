@@ -12,6 +12,9 @@ function myFunction() {
     
     } else if (letter === "Nothing") {
     text = "Clever, but wrong.";
+      
+       } else if (letter === "nothing") {
+    text = "Clever, but wrong.";
     
   
   } else {
